@@ -68,14 +68,23 @@
                 cursor="fuse: false; rayOrigin: mouse;"
                 id="markerA"
             >
-                <a-video
+                <!-- <a-video
                     src="#vid"
                     scale="1 1 1"
                     position="0 0.1 0"
                     rotation="-90 0 0"
                     class="clickable"
                     gesture-handler
-                ></a-video>
+                ></a-video> -->
+
+                <a-entity
+                    id="bowser-model"
+                    scale="5 5 5"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
             </a-marker>
          
             <a-marker
