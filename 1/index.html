@@ -47,6 +47,11 @@
                     muted
                     playsinline
                 ></video>
+
+                <a-asset-item
+                id="animated-asset"
+                src="assets/asset2.gltf"
+            ></a-asset-item>
             </a-assets>
 
             <a-marker
@@ -72,6 +77,27 @@
                     gesture-handler
                 ></a-video>
             </a-marker>
+         
+            <a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/marker2.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA"
+            >
+                <a-entity
+                    id="bowser-model"
+                    scale="0.0001364518199162242 0.0001364518199162242 0.0001364518199162242"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+            </a-marker>
+
 
             <a-entity camera></a-entity>
         </a-scene>
