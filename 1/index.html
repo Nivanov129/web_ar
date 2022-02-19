@@ -68,45 +68,37 @@
                 cursor="fuse: false; rayOrigin: mouse;"
                 id="markerA"
             >
-                <!-- <a-video
+                <a-video
                     src="#vid"
                     scale="1 1 1"
                     position="0 0.1 0"
                     rotation="-90 0 0"
                     class="clickable"
                     gesture-handler
-                ></a-video> -->
+                ></a-video>
 
-                <a-entity
-                    id="bowser-model"
-                    scale="5 5 5"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset"
-                    class="clickable"
-                    gesture-handler
-                ></a-entity>
+            
             </a-marker>
          
             <a-marker
-                id="animated-marker"
-                type="pattern"
-                preset="custom"
-                url="assets/marker2.patt"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerA"
-            >
-                <a-entity
-                    id="bowser-model"
-                    scale="5 5 5"
-                    position="0 0 0"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset"
-                    class="clickable"
-                    gesture-handler
-                ></a-entity>
-            </a-marker>
+            id="animated-marker"
+            type="pattern"
+            preset="custom"
+            url="assets/marker2.patt"
+            raycaster="objects: .clickable"
+            emitevents="true"
+            cursor="fuse: false; rayOrigin: mouse;"
+            id="markerA"
+        >
+            <a-entity
+                id="bowser-model"
+                scale="0.0001364518199162242 0.0001364518199162242 0.0001364518199162242"
+                animation-mixer="loop: repeat"
+                gltf-model="#animated-asset"
+                class="clickable"
+                gesture-handler
+            ></a-entity>
+        </a-marker>
 
 
             <a-entity camera></a-entity>
