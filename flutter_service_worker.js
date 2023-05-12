@@ -3,11 +3,12 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "AgoraRtcWrapper.bundle.js": "7607e24d385c392f197707cc57a38cf6",
+  "AgoraRtcWrapper.bundle.js": "a6abd507d4746c6e4575ca1240fdd720",
 "version.json": "80478359c0487b900046712e30b8e750",
-"index.html": "c5601374762d7e8807ddf22fc10acbc7",
-"/": "c5601374762d7e8807ddf22fc10acbc7",
-"main.dart.js": "8591839c254f2a1c97e3d868f4434e5b",
+"index.html": "c07bc6908cb46729a1f62468ed575328",
+"/": "c07bc6908cb46729a1f62468ed575328",
+"main.dart.js": "888cddddf9023f9cf4974ae114b21d08",
+".well-known/assetlinks.json": "7848d6546d33d6bfeefdd272181583e9",
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "favicon.png": "dcbdd21a04046b9d887e09f94731f394",
 "icons/Icon-192.png": "1803cf0b54f90aaf3701cda5b18f0d13",
